@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROOT>
+  <LOG>
+    <LOGLEVEL>VERBOSE</LOGLEVEL>
+  </LOG>
+  <POSITION>341,787,559,702</POSITION>
+  <CONNECTIONS>
+    <COMPORT>
+      <PORT>COM5</PORT>
+      <BAUDRATE>115200</BAUDRATE>
+      <BYTESIZE>8</BYTESIZE>
+      <PARITY>0</PARITY>
+      <STOPBITS>0</STOPBITS>
+      <FLOWCONTROL>0</FLOWCONTROL>
+    </COMPORT>
+  </CONNECTIONS>
+  <TIMEOUT>180000</TIMEOUT>
+  <OPERATIONS>
+    <OPERATION>
+      <ID>1</ID>
+      <NAME>Sale</NAME>
+      <INFO>Sale goods</INFO>
+      <FIELDS>0M,4M,25M,41M,69O,70O</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL8>3</FLDVAL8>
+      <FLDVAL11>1212</FLDVAL11>
+      <FLDVAL25>1</FLDVAL25>
+      <FLDVAL26>6</FLDVAL26>
+      <FLDVAL21>20110324155414</FLDVAL21>
+    </OPERATION>
+    <OPERATION>
+      <ID>4</ID>
+      <NAME>Void Sale</NAME>
+      <INFO>Void operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>4</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>29</ID>
+      <NAME>Return</NAME>
+      <INFO>Return operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,21M,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>29</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>4</ID>
+      <NAME>Void Return</NAME>
+      <INFO>Void operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>4</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>29</ID>
+      <NAME>Return TID</NAME>
+      <INFO>Return operation</INFO>
+      <FIELDS>0M,4M,25M,27M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,21M,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>29</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>4</ID>
+      <NAME>Void Return TID</NAME>
+      <INFO>Void operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>4</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>71</ID>
+      <NAME>Unreference return</NAME>
+      <INFO>Return operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,21M,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>71</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>4</ID>
+      <NAME>Void Unref.Return</NAME>
+      <INFO>Void operation</INFO>
+      <FIELDS>0M,4M,25M</FIELDS>
+      <FIELDSRESP>0M,4M,13O,14O,15O,19O,25M,27M,28M,39M,90O</FIELDSRESP>
+      <FLDVAL0>1000</FLDVAL0>
+      <FLDVAL4>643</FLDVAL4>
+      <FLDVAL25>4</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>59</ID>
+      <NAME>Settlement</NAME>
+      <INFO>Settlement operation</INFO>
+      <FIELDS>25M</FIELDS>
+      <FIELDSRESP>25M,39M,90O</FIELDSRESP>
+      <FLDVAL25>59</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>26</ID>
+      <NAME>Test</NAME>
+      <INFO>Test connection</INFO>
+      <FIELDS>25M</FIELDS>
+      <FIELDSRESP>25M,39M,90O</FIELDSRESP>
+      <FLDVAL25>26</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>76</ID>
+      <NAME>Load Keys</NAME>
+      <INFO>Load Keys</INFO>
+      <FIELDS>25M</FIELDS>
+      <FIELDSRESP>25M,39M,90O</FIELDSRESP>
+      <FLDVAL25>76</FLDVAL25>
+    </OPERATION>
+    <OPERATION>
+      <ID>63</ID>
+      <NAME>Short Report</NAME>
+      <INFO>Short Report</INFO>
+      <FIELDS>25M,65M</FIELDS>
+      <FIELDSRESP>25M,65M,67M,90M</FIELDSRESP>
+      <FLDVAL25>63</FLDVAL25>
+      <FLDVAL65>20</FLDVAL65>
+    </OPERATION>
+    <OPERATION>
+      <ID>63</ID>
+      <NAME>Long Report</NAME>
+      <INFO>Long Report</INFO>
+      <FIELDS>25M,65M</FIELDS>
+      <FIELDSRESP>25M,65M,39M,90M</FIELDSRESP>
+      <FLDVAL25>63</FLDVAL25>
+      <FLDVAL65>21</FLDVAL65>
+    </OPERATION>
+    <OPERATION>
+      <ID>63</ID>
+      <NAME>Copy receipt</NAME>
+      <INFO>Ask for copy receipt</INFO>
+      <FIELDS>25M,64M,65M</FIELDS>
+      <FIELDSRESP>25M,65M,90M</FIELDSRESP>
+      <FLDVAL25>63</FLDVAL25>
+      <FLDVAL64>0</FLDVAL64>
+      <FLDVAL65>22</FLDVAL65>
+    </OPERATION>
+    <OPERATION>
+      <ID>63</ID>
+      <NAME>Last receipt</NAME>
+      <INFO>Ask for last receipt</INFO>
+      <FIELDS>25M,64M,65M</FIELDS>
+      <FIELDSRESP>25M,65M,90M</FIELDSRESP>
+      <FLDVAL25>63</FLDVAL25>
+      <FLDVAL64>1</FLDVAL64>
+      <FLDVAL65>22</FLDVAL65>
+    </OPERATION>
+  </OPERATIONS>
+  <FIELDS>
+    <FIELD>
+      <ID>0</ID>
+      <NAME>Amount</NAME>
+      <DESCRIPTION>Transaction Amount</DESCRIPTION>
+      <INFO>Amount in min currency units. Example 100 or 000000000100</INFO>
+    </FIELD>
+    <FIELD>
+      <ID>4</ID>
+      <NAME>Currency</NAME>
+      <DESCRIPTION>Currency Code</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>6</ID>
+      <NAME>DateTimeHost</NAME>
+      <DESCRIPTION>Date and time YYYYMMDDHHMMSS from host</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>8</ID>
+      <NAME>CardEntryMode</NAME>
+      <DESCRIPTION>Card Entry Mode</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>10</ID>
+      <NAME>PAN</NAME>
+      <DESCRIPTION>PAN number</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>11</ID>
+      <NAME>CardExpiryDate</NAME>
+      <DESCRIPTION>Card Expiry YYMM</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>12</ID>
+      <NAME>TRACK2</NAME>
+      <DESCRIPTION>Track 2</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>13</ID>
+      <NAME>AuthorizationCode</NAME>
+      <DESCRIPTION>Authorization Code</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>14</ID>
+      <NAME>ReferenceNumber</NAME>
+      <DESCRIPTION>Reference Number</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>15</ID>
+      <NAME>ResponseCodeHost</NAME>
+      <DESCRIPTION>Response code</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>19</ID>
+      <NAME>TextResponse</NAME>
+      <DESCRIPTION>Description response</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>21</ID>
+      <NAME>TerminalDateTime</NAME>
+      <DESCRIPTION>Date and time YYYYMMDDhhmmss from terminal</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>23</ID>
+      <NAME>TrxID</NAME>
+      <DESCRIPTION>Transaction ID on server</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>25</ID>
+      <NAME>OperationCode</NAME>
+      <DESCRIPTION>Operation Code</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>26</ID>
+      <NAME>TerminalTrxID</NAME>
+      <DESCRIPTION>Transaction ID on ECR</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>27</ID>
+      <NAME>TerminalID</NAME>
+      <DESCRIPTION>TerminalID</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>28</ID>
+      <NAME>MerchantID</NAME>
+      <DESCRIPTION>Merchant ID</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>34</ID>
+      <NAME>OrigOperation</NAME>
+      <DESCRIPTION>Original Operation Code</DESCRIPTION>
+    </FIELD>
+	  <FIELD>
+		  <ID>39</ID>
+		  <NAME>Status</NAME>
+		  <DESCRIPTION>Transaction Status</DESCRIPTION>
+	  </FIELD>
+	  <FIELD>
+		  <ID>41</ID>
+		  <NAME>Pin</NAME>
+		  <DESCRIPTION>Pin Block</DESCRIPTION>
+	  </FIELD>
+    <FIELD>
+      <ID>64</ID>
+      <NAME>CommandMode</NAME>
+      <DESCRIPTION>Command Mode</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>65</ID>
+      <NAME>CommandMode2</NAME>
+      <DESCRIPTION>Command Mode 2</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>67</ID>
+      <NAME>CommandResult</NAME>
+      <DESCRIPTION>Command Status Result</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>70</ID>
+      <NAME>FileData</NAME>
+      <DESCRIPTION>File data</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>86</ID>
+      <NAME>AdditionalData</NAME>
+      <DESCRIPTION>Additional data</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>90</ID>
+      <NAME>ReceiptData</NAME>
+      <DESCRIPTION>Data for print</DESCRIPTION>
+    </FIELD>
+    <FIELD>
+      <ID>91</ID>
+      <NAME>PULSAR</NAME>
+      <DESCRIPTION>PULSAR</DESCRIPTION>
+    </FIELD>
+  </FIELDS>
+</ROOT>
