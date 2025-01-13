@@ -2,8 +2,10 @@ package dualconnector.model;
 
 import lombok.*;
 
-@Data
-@ToString(of = {"name", "description"})
+@Builder
+@Getter
+@Setter
+@ToString(of = {"name", "description", "request", "info"})
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = {"id"})
