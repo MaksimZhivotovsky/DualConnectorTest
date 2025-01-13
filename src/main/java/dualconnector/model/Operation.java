@@ -4,7 +4,9 @@ import lombok.*;
 
 import java.util.List;
 
-@Data
+@Builder
+@Getter
+@Setter
 @ToString(of = {"name", "info"})
 @NoArgsConstructor
 @AllArgsConstructor
