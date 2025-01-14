@@ -7,7 +7,7 @@ import java.util.List;
 @Builder
 @Getter
 @Setter
-@ToString(of = {"name", "info"})
+@ToString(of = {"id", "name", "info"})
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = {"id"})

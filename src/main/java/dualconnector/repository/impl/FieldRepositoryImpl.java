@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Slf4j
+//@Slf4j
 @Getter
 public class FieldRepositoryImpl implements FieldRepository {
 
@@ -44,7 +44,10 @@ public class FieldRepositoryImpl implements FieldRepository {
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File("params.xml"));
+            Document document = builder.parse(
+//                    new File("/home/max/IdeaProjects/DualConnectorTest/params.xml")
+                    new File("params.xml")
+            );
             document.getDocumentElement().normalize();
 
             NodeList nodeList = document.getElementsByTagName("FIELD");
@@ -75,7 +78,7 @@ public class FieldRepositoryImpl implements FieldRepository {
                 }
             }
         } catch (Exception e) {
-            log.error(e.getMessage());
+//            log.error(e.getMessage());
         }
     }
 }

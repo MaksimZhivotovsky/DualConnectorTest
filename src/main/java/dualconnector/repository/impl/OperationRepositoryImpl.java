@@ -16,7 +16,7 @@ import java.io.File;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@Slf4j
+//@Slf4j
 public class OperationRepositoryImpl implements OperationRepository {
 
     private final List<Operation> operationList;
@@ -63,7 +63,7 @@ public class OperationRepositoryImpl implements OperationRepository {
                 }
             }
         } catch (Exception e) {
-            log.error(e.getMessage());
+//            log.error(e.getMessage());
         }
     }
 
