@@ -3,6 +3,8 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '10'))
     }
 
+    agent any
+
     environment {
         CI = false
     }
