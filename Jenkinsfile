@@ -2,14 +2,9 @@ pipeline {
     options {
         buildDiscarder(logRotator(numToKeepStr: '10'))
     }
-    agent {
-        node {
-            label 'jenkins-pl'
-        }
-    }
+
     environment {
         CI = false
-        // REPO_CREDS = credentials('jenkins4nexus')
     }
 
     stages {
